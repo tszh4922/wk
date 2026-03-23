@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
     
     // 【修改重点】这里填你 Pages 的原始域名 (xxx.pages.dev)
-    const targetHost = 'your-project.pages.dev'; 
+    const targetHost = 'ddd.tszh4922.workers.dev'; 
     
     // 修改请求的 Host，确保 Pages 能够识别
     const newRequest = new Request(request);
